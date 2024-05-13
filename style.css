@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+blockquote,p{
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    background-color: gr;
+}
+button{
+    align-self: center;
+}
+h1{
+    display: block;
+    border-radius: 3px !important;
+    color: white;
+    text-align: center;
+    background-color: grey;
+    border-width: 1px;
+    font-style:normal
+}
+h2{
+    display: block;
+    border-radius: 5px !important;
+    background-color: grey;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 2px;
+    color: white;
+} 
+ a{
+    background-color: grey;
+    padding: 5px;
+    color:rgb(255, 255, 255);
+ }
+ span{
+    background-color: gray;
+    color: gray;
+    padding: 5px;
+    margin-right: 100%;
+ }
+h3{
+    color: white;
+    background-color: gray;
+    width: fit-content;
+    padding-right: 2px;
+    padding-left: 3px;
+    border-radius: 5px;
+}
+.luke {
+    border-radius: 5px;
+    text-decoration-color: white;
+    text-decoration: underline;
+}
+.steam {
+    color: white;
+    position: absolute;
+    transform: translateY(14px);
+}
