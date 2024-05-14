@@ -1,5 +1,7 @@
 body{
-    background-color: black;
+    background-image: url(https://wallpapers.com/images/high/moon-in-pitch-black-backdrop-46js4bb89zldtxjq.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 blockquote,p{
     color: white;
@@ -11,15 +13,7 @@ blockquote,p{
 button{
     align-self: center;
 }
-h1{
-    display: block;
-    border-radius: 3px !important;
-    color: white;
-    text-align: center;
-    background-color: grey;
-    border-width: 1px;
-    font-style:normal
-}
+
 h2{
     display: block;
     border-radius: 5px !important;
@@ -57,4 +51,7 @@ h3{
     color: white;
     position: absolute;
     transform: translateY(14px);
+}
+label{
+    color: white;
 }

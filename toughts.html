@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulář</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<body>
+    <div class="typewriter" style="color: white;">
+        <h1>Folmulář / návrhy</h1>
+      </div>
+      <style>
+        .typewriter h1 {
+          overflow: hidden;
+          border-right: .15em solid orange;
+          white-space: nowrap;
+          margin: 0 auto;
+          letter-spacing: .0em;
+          animation: typing 3.5s steps(60, end), blink-caret .75s step-end infinite;
+          max-width: fit-content;
+        }
+        
+        @keyframes typing {
+          from { width: 0 }
+          to { width: 100% }
+        }
+        
+        @keyframes blink-caret {
+          from, to { border-color: transparent }
+          50% { border-color: orange; }
+        }
+            </style>
+
+
+
+
+
+
+<br><br>
+<style>
+        label{
+            color: white;
+        }
+    </style>
+    <a class="luke" href="index.html">úvodní stránka</a>
+    <a class="luke" href="kontakt.html">info</a>
+    <a class="luke" href="update log.html">update log</a>
+    <a class="luke" href="legal.html">podmínky využití</a>
+    <a style="border-radius: 5px;text-decoration: underline;"  title="na této stránce už jsi!">formulář návrhy</a>
+    
+    <br><br>
+    <form id="feedbackForm" action="save_text.php" method="post">
+        <label for="jmenoPrezdivka">jméno/prezdivka:</label><br>
+        <input type="text" id="jmenoPrezdivka" name="jmenoPrezdivka" maxlength="10"><br><br>
+
+        <label for="coBySeDaloZlepsit">co by se dalo zlepsit:</label><br>
+        <input type="text" id="coBySeDaloZlepsit" name="coBySeDaloZlepsit" maxlength="1000"><br><br>
+        
+        <input type="submit" value="odeslat">
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="javascript.js"></script>
+
+
+
+
+
+
+</body>
+</html>
